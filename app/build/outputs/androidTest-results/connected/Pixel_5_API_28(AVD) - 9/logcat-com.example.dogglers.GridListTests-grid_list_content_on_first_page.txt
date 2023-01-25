@@ -1,0 +1,229 @@
+03-01 18:35:05.167 26754 26790 I TestRunner: started: grid_list_content_on_first_page(com.example.dogglers.GridListTests)
+03-01 18:35:05.174 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@c8b5def in: STOPPED
+03-01 18:35:05.232 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@c8b5def in: DESTROYED
+03-01 18:35:05.359 26754 26790 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+03-01 18:35:05.365  1715  1806 W SurfaceFlinger: Attempting to destroy on removed layer: AppWindowToken{82f951 token=Token{48a5e78 ActivityRecord{7f13db u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t107}}}#0
+03-01 18:35:05.520  3746  3778 W .gms.persisten: Long monitor contention with owner lowpool[251] (26806) at boolean android.os.MessageQueue.enqueueMessage(android.os.Message, long)(MessageQueue.java:544) waiters=0 in android.os.Message android.os.MessageQueue.next() for 375ms
+03-01 18:35:05.549  2087  2652 D HostConnection: HostConnection::get() New Host Connection established 0xe7546d50, tid 2652
+03-01 18:35:05.591  2087  2652 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_dma_v1 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_sync_buffer_data GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+03-01 18:35:05.622  2280  2299 I ndroid.systemu: NativeAlloc concurrent copying GC freed 3036(302KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 5MB/10MB, paused 1.080ms total 1.553s
+03-01 18:35:05.812  2087  2652 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+03-01 18:35:05.812  2087  2652 I ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+03-01 18:35:05.812  2087  2652 I OpenGLRenderer: Initialized EGL, version 1.4
+03-01 18:35:05.812  2087  2652 D OpenGLRenderer: Swap behavior 1
+03-01 18:35:05.991 10974 25635 I MicroRecognitionRunner: Starting detection.
+03-01 18:35:05.992 10974 25621 I MicrophoneInputStream: mic_starting  SR : 16000 CC : 16 SO : 6
+03-01 18:35:05.996  1628  1628 E         : Request requires android.permission.RECORD_AUDIO
+03-01 18:35:06.007  1628  1628 E AudioPolicyIntefaceImpl: getInputForAttr permission denied: recording not allowed for uid 10040 pid 10974
+03-01 18:35:06.007  1628  1628 E AudioFlinger: createRecord() checkRecordThread_l failed
+03-01 18:35:06.014  2087 13676 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@aa18e4c)
+03-01 18:35:06.027  2087  2119 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@aa18e4c)
+03-01 18:35:06.040 10974 25621 E IAudioFlinger: createRecord returned error -22
+03-01 18:35:06.040 10974 25621 E AudioRecord: AudioFlinger could not create record track, status: -22
+03-01 18:35:06.040 10974 25621 E AudioRecord-JNI: Error creating AudioRecord instance: initialization check failed with status -22.
+03-01 18:35:06.065 10974 25621 E android.media.AudioRecord: Error code -20 when initializing native AudioRecord object.
+03-01 18:35:06.065 10974 25621 I MicrophoneInputStream: mic_started  SR : 16000 CC : 16 SO : 6
+03-01 18:35:06.170  2087  2652 D eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+03-01 18:35:06.171  2087  2652 D EGL_emulation: eglCreateContext: 0xe75048a0: maj 3 min 0 rcv 3
+03-01 18:35:06.221  1620  1620 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9281536
+03-01 18:35:06.232  2087  3040 W system_server: Long monitor contention with owner Binder:2087_1F (13760) at int com.android.server.am.ActivityStarter.startActivityMayWait(android.app.IApplicationThread, int, java.lang.String, android.content.Intent, java.lang.String, android.service.voice.IVoiceInteractionSession, com.android.internal.app.IVoiceInteractor, android.os.IBinder, java.lang.String, int, int, android.app.ProfilerInfo, android.app.WaitResult, android.content.res.Configuration, com.android.server.am.SafeActivityOptions, boolean, int, com.android.server.am.TaskRecord, java.lang.String, boolean)(ActivityStarter.java:1023) waiters=0 in boolean com.android.server.am.ActivityManagerService.refContentProvider(android.os.IBinder, int, int) for 710ms
+03-01 18:35:06.233  2087  3109 W system_server: Long monitor contention with owner Binder:2087_1F (13760) at int com.android.server.am.ActivityStarter.startActivityMayWait(android.app.IApplicationThread, int, java.lang.String, android.content.Intent, java.lang.String, android.service.voice.IVoiceInteractionSession, com.android.internal.app.IVoiceInteractor, android.os.IBinder, java.lang.String, int, int, android.app.ProfilerInfo, android.app.WaitResult, android.content.res.Configuration, com.android.server.am.SafeActivityOptions, boolean, int, com.android.server.am.TaskRecord, java.lang.String, boolean)(ActivityStarter.java:1023) waiters=1 in int com.android.server.am.PendingIntentRecord.sendInner(int, android.content.Intent, java.lang.String, android.os.IBinder, android.content.IIntentReceiver, java.lang.String, android.os.IBinder, java.lang.String, int, int, int, android.os.Bundle) for 652ms
+03-01 18:35:06.238  2087  2267 W system_server: Long monitor contention with owner Binder:2087_1F (13760) at int com.android.server.am.ActivityStarter.startActivityMayWait(android.app.IApplicationThread, int, java.lang.String, android.content.Intent, java.lang.String, android.service.voice.IVoiceInteractionSession, com.android.internal.app.IVoiceInteractor, android.os.IBinder, java.lang.String, int, int, android.app.ProfilerInfo, android.app.WaitResult, android.content.res.Configuration, com.android.server.am.SafeActivityOptions, boolean, int, com.android.server.am.TaskRecord, java.lang.String, boolean)(ActivityStarter.java:1023) waiters=2 in void com.android.server.am.TaskPersister.writeTaskIdsFiles() for 566ms
+03-01 18:35:06.263  2087  2120 W system_server: Long monitor contention with owner Binder:2087_1F (13760) at int com.android.server.am.ActivityStarter.startActivityMayWait(android.app.IApplicationThread, int, java.lang.String, android.content.Intent, java.lang.String, android.service.voice.IVoiceInteractionSession, com.android.internal.app.IVoiceInteractor, android.os.IBinder, java.lang.String, int, int, android.app.ProfilerInfo, android.app.WaitResult, android.content.res.Configuration, com.android.server.am.SafeActivityOptions, boolean, int, com.android.server.am.TaskRecord, java.lang.String, boolean)(ActivityStarter.java:1023) waiters=3 in void com.android.server.am.TaskChangeNotificationController.forAllRemoteListeners(com.android.server.am.TaskChangeNotificationController$TaskStackConsumer, android.os.Message) for 564ms
+03-01 18:35:06.265  2087  3122 W system_server: Long monitor contention with owner Binder:2087_1F (13760) at int com.android.server.am.ActivityStarter.startActivityMayWait(android.app.IApplicationThread, int, java.lang.String, android.content.Intent, java.lang.String, android.service.voice.IVoiceInteractionSession, com.android.internal.app.IVoiceInteractor, android.os.IBinder, java.lang.String, int, int, android.app.ProfilerInfo, android.app.WaitResult, android.content.res.Configuration, com.android.server.am.SafeActivityOptions, boolean, int, com.android.server.am.TaskRecord, java.lang.String, boolean)(ActivityStarter.java:1023) waiters=4 in android.app.ContentProviderHolder com.android.server.am.ActivityManagerService.getContentProviderImpl(android.app.IApplicationThread, java.lang.String, android.os.IBinder, boolean, int) for 162ms
+03-01 18:35:06.272 26754 26754 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@455b5a6
+03-01 18:35:06.329 10974 25635 W SpeechLevelGenerator: Really low audio levels detected. The audio input may have issues.
+03-01 18:35:06.349 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9557394 in: PRE_ON_CREATE
+03-01 18:35:06.349 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:06.350 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9557394
+03-01 18:35:06.350 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:06.359 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9557394 in: CREATED
+03-01 18:35:06.359 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:06.359 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9557394
+03-01 18:35:06.359 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:06.362 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9557394 in: STARTED
+03-01 18:35:06.362 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:06.362 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9557394
+03-01 18:35:06.363 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:06.367 10974 10974 I MicroDetectionWorker: onReady
+03-01 18:35:06.369 10974 10974 I MicroDetector: Keeping mic open: false
+03-01 18:35:06.370 10974 11092 I MicroRecognitionRunner: Stopping hotword detection.
+03-01 18:35:06.371 10974 26831 I DeviceStateChecker: DeviceStateChecker cancelled
+03-01 18:35:06.372 10974 25625 I AudioController: internalShutdown
+03-01 18:35:06.374  2087  2652 D EGL_emulation: eglMakeCurrent: 0xe75048a0: ver 3 0 (tinfo 0xcf7ff970)
+03-01 18:35:06.379 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9557394 in: RESUMED
+03-01 18:35:06.379 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:06.379 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9557394
+03-01 18:35:06.379 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:06.386 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9557394 in: PAUSED
+03-01 18:35:06.386 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:06.386 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9557394
+03-01 18:35:06.386 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:06.443 10974 25621 I MicrophoneInputStream: mic_close  SR : 16000 CC : 16 SO : 6
+03-01 18:35:06.469 26754 26754 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@938f83
+03-01 18:35:06.510 10974 11063 D EGL_emulation: eglMakeCurrent: 0xe75048a0: ver 3 0 (tinfo 0xe7503830)
+03-01 18:35:06.554 10974 25635 I MicroRecognitionRunner: Detection finished
+03-01 18:35:06.555  2280  2669 D EGL_emulation: eglMakeCurrent: 0xe7504300: ver 3 0 (tinfo 0xe7503e60)
+03-01 18:35:06.562 26754 26754 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.GridListActivity@393a12c in: PRE_ON_CREATE
+03-01 18:35:06.562 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:06.563  2280  2669 D EGL_emulation: eglMakeCurrent: 0xe7504300: ver 3 0 (tinfo 0xe7503e60)
+03-01 18:35:06.563  1620  1620 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9281536
+03-01 18:35:06.566 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+03-01 18:35:06.566 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:06.627 26754 26766 I xample.doggler: WaitForGcToComplete blocked Background on None for 45.289ms
+03-01 18:35:06.669 26754 26754 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.GridListActivity@393a12c in: CREATED
+03-01 18:35:06.669 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:06.669 26754 26754 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.dogglers.GridListActivity@393a12c
+03-01 18:35:06.670 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:06.672 23570 23618 D EGL_emulation: eglMakeCurrent: 0xe4a27340: ver 3 0 (tinfo 0xe55727e0)
+03-01 18:35:06.701 26754 26754 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.GridListActivity@393a12c in: STARTED
+03-01 18:35:06.701 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:06.701 26754 26754 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.dogglers.GridListActivity@393a12c
+03-01 18:35:06.702 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:06.704 26754 26754 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.GridListActivity@393a12c in: RESUMED
+03-01 18:35:06.704 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:06.704 26754 26754 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.dogglers.GridListActivity@393a12c
+03-01 18:35:06.704 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:06.836 26754 26754 D IdlingResourceRegistry: All idling resources are idle.
+03-01 18:35:06.978  3746 26869 E memtrack: Couldn't load memtrack module
+03-01 18:35:06.978  3746 26869 W android.os.Debug: failed to get memory consumption info: -1
+03-01 18:35:07.000  1620  1620 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+03-01 18:35:07.082 26754 26766 I xample.doggler: Background concurrent copying GC freed 34742(2MB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 4MB/8MB, paused 24.609ms total 455.115ms
+03-01 18:35:07.087  1620  1620 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+03-01 18:35:07.111  1620  6639 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9850880
+03-01 18:35:07.173  2087 13676 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@66b4150)
+03-01 18:35:07.177  2087  2119 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@66b4150)
+03-01 18:35:07.263  2087  2097 I system_server: NativeAlloc concurrent copying GC freed 11511(753KB) AllocSpace objects, 4(208KB) LOS objects, 28% free, 14MB/20MB, paused 5.542ms total 1.646s
+03-01 18:35:07.477 26754 26795 D EGL_emulation: eglMakeCurrent: 0xe7504300: ver 3 0 (tinfo 0xe75037f0)
+03-01 18:35:07.493  2275  2275 I GoogleInputMethod: onFinishInput() : Dummy InputConnection bound
+03-01 18:35:07.613  2275  2275 I GoogleInputMethod: onStartInput() : Dummy InputConnection bound
+03-01 18:35:07.628 26754 26754 D IdlingResourceRegistry: All idling resources are idle.
+03-01 18:35:07.633 26754 26754 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=is displayed on the screen to the user}' assertion on view with text: is "Nox"
+03-01 18:35:07.814  2087  2652 D eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 1 2
+03-01 18:35:07.888  2087  3040 W system_server: Long monitor contention with owner Binder:2087_7 (2580) at void com.android.server.am.ActivityManagerService.activityIdle(android.os.IBinder, android.content.res.Configuration, boolean)(ActivityManagerService.java:7948) waiters=1 in android.os.Debug$MemoryInfo[] com.android.server.am.ActivityManagerService.getProcessMemoryInfo(int[]) for 187ms
+03-01 18:35:07.891  2087  2267 W system_server: Long monitor contention with owner Binder:2087_7 (2580) at void com.android.server.am.ActivityManagerService.activityIdle(android.os.IBinder, android.content.res.Configuration, boolean)(ActivityManagerService.java:7948) waiters=3 in void com.android.server.am.TaskPersister$LazyTaskWriterThread.run() for 120ms
+03-01 18:35:07.903  2087  2132 I ActivityManager: Displayed com.example.dogglers/.GridListActivity: +1s277ms (total +1s394ms)
+03-01 18:35:07.906 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9557394 in: STOPPED
+03-01 18:35:07.906 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:07.907 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9557394
+03-01 18:35:07.907 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:07.906  2087 14236 W system_server: Long monitor contention with owner Binder:2087_7 (2580) at void com.android.server.am.ActivityManagerService.activityIdle(android.os.IBinder, android.content.res.Configuration, boolean)(ActivityManagerService.java:7948) waiters=2 in android.content.Intent com.android.server.am.ActivityManagerService.registerReceiver(android.app.IApplicationThread, java.lang.String, android.content.IIntentReceiver, android.content.IntentFilter, java.lang.String, int, int) for 184ms
+03-01 18:35:07.938  3746 26577 W ctxmgr  : [WorkManager] Long workInfo: pkg=com.google.android.gms, lbl=PlacesProducer_broadcast, start=2022-03-01 18:35:06.273+0300, stop=2022-03-01 18:35:07.938+0300, durtn=1665ms [CONTEXT service_id=47 ]
+03-01 18:35:08.032  2087 13676 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@67f4367)
+03-01 18:35:08.032  1715  1806 W SurfaceFlinger: Attempting to set client state on removed layer: Splash Screen com.example.dogglers#0
+03-01 18:35:08.036  1715  1806 W SurfaceFlinger: Attempting to destroy on removed layer: Splash Screen com.example.dogglers#0
+03-01 18:35:08.041  1715  1715 W SurfaceFlinger: couldn't log to binary event log: overflow.
+03-01 18:35:08.041  1715  1715 W SurfaceFlinger: couldn't log to binary event log: overflow.
+03-01 18:35:08.056  2087  2119 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@67f4367)
+03-01 18:35:08.211 26754 26754 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.GridListActivity@393a12c in: PAUSED
+03-01 18:35:08.211 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:08.211 26754 26754 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.dogglers.GridListActivity@393a12c
+03-01 18:35:08.211 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:08.219 10974 10974 I StreamRenderer: cleanUpRendererScope(nowcards--5257354681197196444)
+03-01 18:35:08.312 10974 10974 W SearchService: Abort, client detached.
+03-01 18:35:08.314 10974 10974 I StreamController: cleanUpControllerScope(nowcards--5257354681197196444)
+03-01 18:35:08.368 26754 26754 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@f8f3dd9
+03-01 18:35:08.437 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@622fe7f in: PRE_ON_CREATE
+03-01 18:35:08.437 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:08.438 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@622fe7f
+03-01 18:35:08.440 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:08.452 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@622fe7f in: CREATED
+03-01 18:35:08.453 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:08.453 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@622fe7f
+03-01 18:35:08.453 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:08.460 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@622fe7f in: STARTED
+03-01 18:35:08.460 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:08.460 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@622fe7f
+03-01 18:35:08.460 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:08.467 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@622fe7f in: RESUMED
+03-01 18:35:08.467 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:08.467 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@622fe7f
+03-01 18:35:08.467 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:08.541  3746  3757 I .gms.persisten: Background concurrent copying GC freed 121174(5MB) AllocSpace objects, 20(680KB) LOS objects, 37% free, 9MB/15MB, paused 541.114ms total 450.259ms
+03-01 18:35:08.707  2087  3040 E memtrack: Couldn't load memtrack module
+03-01 18:35:08.707  2087  3040 W android.os.Debug: failed to get memory consumption info: -1
+03-01 18:35:08.713  1620  6639 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9281536
+03-01 18:35:08.819  1620  1620 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9281536
+03-01 18:35:08.825  1620  1863 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9281536
+03-01 18:35:08.912 26754 26795 D EGL_emulation: eglMakeCurrent: 0xe7504300: ver 3 0 (tinfo 0xe75037f0)
+03-01 18:35:08.914  2275  2275 I GoogleInputMethod: onFinishInput() : Dummy InputConnection bound
+03-01 18:35:08.916  2275  2275 I GoogleInputMethod: onStartInput() : Dummy InputConnection bound
+03-01 18:35:09.036  2087 13676 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@fee842d)
+03-01 18:35:09.040  2087  2119 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@fee842d)
+03-01 18:35:09.174 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@622fe7f in: PAUSED
+03-01 18:35:09.174 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:09.175 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@622fe7f
+03-01 18:35:09.175 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:09.211 10974 26832 I EventLogSendingHelper: Sending log events.
+03-01 18:35:09.311 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9557394 in: DESTROYED
+03-01 18:35:09.311 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:09.311 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@9557394
+03-01 18:35:09.311 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:09.385 26754 26754 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@e73f338
+03-01 18:35:09.397 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@b2a8876 in: PRE_ON_CREATE
+03-01 18:35:09.397 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:09.397 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@b2a8876
+03-01 18:35:09.397 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:09.421 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@b2a8876 in: CREATED
+03-01 18:35:09.421 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:09.422 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@b2a8876
+03-01 18:35:09.422 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:09.428 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@b2a8876 in: STARTED
+03-01 18:35:09.429 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:09.429 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@b2a8876
+03-01 18:35:09.429 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:09.444 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@b2a8876 in: RESUMED
+03-01 18:35:09.444 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:09.444 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@b2a8876
+03-01 18:35:09.444 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:09.559  1715  1715 D SurfaceFlinger: duplicate layer name: changing com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity to com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#1
+03-01 18:35:09.601  1620  1863 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9281536
+03-01 18:35:09.608  1620  6639 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9281536
+03-01 18:35:09.610  1620  1620 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 9281536
+03-01 18:35:09.610 10974 25635 I WorkController: WorkProxy is not enqueued because WorkController is disposed: WorkProxy{Name=context::j, WorkerId=context, id=5395f97}
+03-01 18:35:09.610 10974 25635 I WorkController: WorkProxy is not enqueued because WorkController is disposed: WorkProxy{Name=context::m, WorkerId=context, id=a57e584}
+03-01 18:35:09.611 10974 25635 I WorkController: WorkProxy is not enqueued because WorkController is disposed: WorkProxy{Name=context::n, WorkerId=context, id=773216d}
+03-01 18:35:09.611 10974 25635 I WorkController: WorkProxy is not enqueued because WorkController is disposed: WorkProxy{Name=context::p, WorkerId=context, id=782a1a2}
+03-01 18:35:09.668  2275  2275 I GoogleInputMethod: onFinishInput() : Dummy InputConnection bound
+03-01 18:35:09.668  2275  2275 I GoogleInputMethod: onStartInput() : Dummy InputConnection bound
+03-01 18:35:09.681 26754 26795 D EGL_emulation: eglMakeCurrent: 0xe7504300: ver 3 0 (tinfo 0xe75037f0)
+03-01 18:35:09.706  2087  3040 I GnssLocationProvider: WakeLock acquired by sendMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@c138161)
+03-01 18:35:09.729  2087  2119 I GnssLocationProvider: WakeLock released by handleMessage(SET_REQUEST, 0, com.android.server.location.GnssLocationProvider$GpsRequest@c138161)
+03-01 18:35:09.735  2280  2280 W View    : requestLayout() improperly called by com.android.keyguard.AlphaOptimizedLinearLayout{217afcc V.E...... ......ID 7,0-52,61 #7f0a03b3 app:id/wifi_group} during layout: running second layout pass
+03-01 18:35:09.736  2280  2669 D EGL_emulation: eglMakeCurrent: 0xe7504300: ver 3 0 (tinfo 0xe7503e60)
+03-01 18:35:09.895  2280  2669 D EGL_emulation: eglMakeCurrent: 0xe7504300: ver 3 0 (tinfo 0xe7503e60)
+03-01 18:35:09.896  2087 13760 W system_server: Long monitor contention with owner Binder:2087_8 (3040) at boolean com.android.server.am.ActivityManagerService.finishActivity(android.os.IBinder, int, android.content.Intent, int)(ActivityManagerService.java:5654) waiters=1 in java.lang.String com.android.server.am.ActivityManagerService.checkContentProviderAccess(java.lang.String, int) for 142ms
+03-01 18:35:09.903  2087  2132 I ActivityManager: Displayed com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity: +559ms (total +1s520ms)
+03-01 18:35:09.952  3746 26817 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+03-01 18:35:09.992  3746 26799 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+03-01 18:35:10.011 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@622fe7f in: STOPPED
+03-01 18:35:10.011 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:10.012 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@622fe7f
+03-01 18:35:10.012 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:10.017  2087 13676 I GnssLocationProvider: WakeLock acquired by sendMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@2edd74)
+03-01 18:35:10.021  2087  2119 I GnssLocationProvider: WakeLock released by handleMessage(REPORT_SV_STATUS, 0, com.android.server.location.GnssLocationProvider$SvStatusInfo@2edd74)
+03-01 18:35:10.086 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@622fe7f in: DESTROYED
+03-01 18:35:10.086 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:10.086 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@622fe7f
+03-01 18:35:10.086 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:10.124  3746 23655 I LogUtils: [Places]: ?: PlacesBleScanner stop() [CONTEXT service_id=253 ]
+03-01 18:35:10.129  3746 23655 I PlacesLogger: [PlaceInferenceEngine]: [anon] Changed inference mode: 1 [CONTEXT service_id=253 ]
+03-01 18:35:10.130  3746 23655 I PlacesLogger: [PlaceInferenceEngine]: [account#-29786098] Changed inference mode: 1 [CONTEXT service_id=253 ]
+03-01 18:35:10.134  1715  1715 W SurfaceFlinger: couldn't log to binary event log: overflow.
+03-01 18:35:10.135  3746  3746 I BeaconBle: Scan : No clients left, canceling alarm. [CONTEXT service_id=111 ]
+03-01 18:35:10.136  3746  3746 I BeaconBle: Scan canceled successfully. [CONTEXT service_id=111 ]
+03-01 18:35:10.233 26754 26754 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@b2a8876 in: PAUSED
+03-01 18:35:10.233 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:10.234 26754 26754 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.GridListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@b2a8876
+03-01 18:35:10.234 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:10.281 26754 26754 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.GridListActivity@393a12c in: STOPPED
+03-01 18:35:10.282 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:10.283 26754 26754 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.dogglers.GridListActivity@393a12c
+03-01 18:35:10.284 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:10.296  3746 23655 I PlacesLogger: [PlaceInferenceEngine]: [anon] Changed inference mode: 1 [CONTEXT service_id=253 ]
+03-01 18:35:10.297  3746 23655 I PlacesLogger: [PlaceInferenceEngine]: [account#-29786098] Changed inference mode: 1 [CONTEXT service_id=253 ]
+03-01 18:35:10.299 26754 26754 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.GridListActivity@393a12c in: DESTROYED
+03-01 18:35:10.299 26754 26754 D LifecycleMonitor: running callback: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:10.299 26754 26754 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+03-01 18:35:10.317 26754 26754 D LifecycleMonitor: callback completes: androidx.test.core.app.ActivityScenario$1@b117e3d
+03-01 18:35:10.321 26754 26790 I TestRunner: finished: grid_list_content_on_first_page(com.example.dogglers.GridListTests)
